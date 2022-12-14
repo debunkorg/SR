@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Debunk"
+  },
+  "text": {
+    "more": "This graphs shows FB groups and pages using Coordinated Inauthentic Sharing Behaviour to spread disinfo links. The time interval between two consecutive shares is max. 60 seconds, it is required at least two shares between FB groups/pages to create a link. Data are obtained from the database of 10 000 disinfo links with the most total interactions. The size of the node depends on the number of coordinated shares.",
+    "intro": "This graphs shows FB groups and pages using Coordinated Inauthentic Sharing Behaviour to spread disinfo links.",
+    "title": "coornet"
+  },
+  "legend": {
+    "edgeLabel": "Inauthentic shares",
+    "colorLabel": "Modularity",
+    "nodeLabel": "FB groups/pages"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
